@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: landing-staging
+  labels:
+    app: landing-staging
+spec:
+  selector:
+    matchLabels:
+      app: landing-staging
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: landing-staging
+    spec:
+      containers:
+      - name: landing-staging
+        image: lokaventour/admin-vue:latest
+        imagePullPolicy: Always
+      nodeSelector:
+        "doks.digitalocean.com/node-pool": "admin"
+      imagePullSecrets:
+      - name: lokavenimagesecret

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: landing-stage
+spec:
+  selector:
+    app: landing-stage
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+  type: NodePort
