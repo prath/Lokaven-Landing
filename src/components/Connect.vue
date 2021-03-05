@@ -4,26 +4,26 @@
     <div class="connect">
       <div class="art">
         <Pill class="host shadow-lg" label="Host" />
-        <img src="@assets/hostconnector.svg" alt="guest connecting dots" class="host-connector">
-        <img src="@assets/host.svg" alt="Host">
+        <img src="../assets/hostconnector.svg" alt="guest connecting dots" class="host-connector">
+        <img src="../assets/host.svg" alt="Host">
       </div>
       <div class="text">
         <p class="host-desc">
           <strong>Host</strong> adalah anda yang memiliki paket usaha wisata, aktifitas seru & unik, workshop atau usaha sejenis
         </p>
-        <img class="connecting-dots" src="@assets/hostguestconnect.svg" alt="host connects to guest">
+        <img class="connecting-dots" src="../assets/hostguestconnect.svg" alt="host connects to guest">
         <p class="guest-desc">
           <strong>Guest</strong> adalah anda yang aktif dan ingin mendapatkan pengalaman baru nan seru
         </p>
         <div class="more">
           <span>Pelajari Lebih Lanjut</span>
-          <img src="@assets/icons/arrow-down.svg" >
+          <img src="../assets/icons/arrow-down.svg" >
         </div>
       </div>
       <div class="art w-80 -mt-5">
         <Pill class="guest shadow-lg" label="Guest" />
-        <img src="@assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector">
-        <img src="@assets/guest.svg" alt="Host">
+        <img src="../assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector">
+        <img src="../assets/guest.svg" alt="Host">
       </div>
     </div>
   </section>

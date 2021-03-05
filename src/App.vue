@@ -4,17 +4,22 @@
   <Teaser />
   <Connect />
   <Benefits />
+  <ExtraBenefits />
+  <BottomCta />
+  <Footer />
 </template>
 
 <script>
 import AOS from 'aos'
-// import 'aos/dist/aos.css'
 
-import Header from '@components/Header.vue'
-import Hero from '@components/Hero.vue'
-import Teaser from '@components/Teaser.vue'
-import Connect from '@components/Connect.vue'
-import Benefits from '@components/Benefits.vue'
+import Header from '@/components/Header.vue'
+import Hero from '@/components/Hero.vue'
+import Teaser from '@/components/Teaser.vue'
+import Connect from '@/components/Connect.vue'
+import Benefits from '@/components/Benefits.vue'
+import ExtraBenefits from '@/components/ExtraBenefits.vue'
+import BottomCta from '@/components/BottomCta.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
@@ -22,7 +27,10 @@ export default {
     Hero,
     Teaser,
     Connect,
-    Benefits
+    Benefits,
+    ExtraBenefits,
+    BottomCta,
+    Footer
   },
   setup () {
     AOS.init({
