@@ -1,6 +1,6 @@
 <template>
   <footer>
-    copyright&copy;2021 - Lokaven
+    Copyright&copy;2021 - Lokaven
   </footer>
 </template>
 

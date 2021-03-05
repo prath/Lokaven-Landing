@@ -12,14 +12,14 @@
 <script>
 import AOS from 'aos'
 
-import Header from '@components/Header.vue'
-import Hero from '@components/Hero.vue'
-import Teaser from '@components/Teaser.vue'
-import Connect from '@components/Connect.vue'
-import Benefits from '@components/Benefits.vue'
-import ExtraBenefits from '@components/ExtraBenefits.vue'
-import BottomCta from '@components/BottomCta.vue'
-import Footer from '@components/Footer.vue'
+import Header from '@/components/Header.vue'
+import Hero from '@/components/Hero.vue'
+import Teaser from '@/components/Teaser.vue'
+import Connect from '@/components/Connect.vue'
+import Benefits from '@/components/Benefits.vue'
+import ExtraBenefits from '@/components/ExtraBenefits.vue'
+import BottomCta from '@/components/BottomCta.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   components: {

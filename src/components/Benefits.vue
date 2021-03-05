@@ -7,23 +7,23 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="@assets/host-manage/create.png" alt="create" class="w-72 top-0 right-0"
+          src="../assets/host-manage/create.png" alt="create" class="w-72 top-0 right-0"
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="@assets/host-manage/prices.png" alt="create" class="w-72 top-7 left-0"
+          src="../assets/host-manage/prices.png" alt="create" class="w-72 top-7 left-0"
           data-aos="fade-down"
           data-aos-delay="200">
         <img
-          src="@assets/host-manage/avatar.png" alt="create" class="w-16 top-2 left-16"
+          src="../assets/host-manage/avatar.png" alt="create" class="w-16 top-2 left-16"
           data-aos="fade-up"
           data-aos-delay="100">
         <img
-          src="@assets/host-manage/preview.png" alt="create" class="w-72 top-20 left-16"
+          src="../assets/host-manage/preview.png" alt="create" class="w-72 top-20 left-16"
           data-aos="fade-down"
           data-aos-delay="500">
         <img
-          src="@assets/host-manage/book.png" alt="create" class="w-72 top-72 right-8"
+          src="../assets/host-manage/book.png" alt="create" class="w-72 top-72 right-8"
           data-aos="fade-up"
           data-aos-delay="1000">
       </figure>
@@ -37,19 +37,19 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="@assets/icons/create-package.svg" alt="Buat paket">
+            <img src="../assets/icons/create-package.svg" alt="Buat paket">
             Buat paket
           </li>
           <li>
-            <img src="@assets/icons/schedule.svg" alt="Set jadwal">
+            <img src="../assets/icons/schedule.svg" alt="Set jadwal">
             Set jadwal
           </li>
           <li>
-            <img src="@assets/icons/price.svg" alt="Tentukan harga">
+            <img src="../assets/icons/price.svg" alt="Tentukan harga">
             Tentukan harga
           </li>
           <li>
-            <img src="@assets/icons/check.svg" alt="Jual paket">
+            <img src="../assets/icons/check.svg" alt="Jual paket">
             Jual paket
           </li>
         </ul>
@@ -63,19 +63,19 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="@assets/guest-explore/book.png" alt="create" class="w-72 top-7 left-0"
+          src="../assets/guest-explore/book.png" alt="create" class="w-72 top-7 left-0"
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="@assets/guest-explore/filter.png" alt="create" class="w-72 top-48 right-0"
+          src="../assets/guest-explore/filter.png" alt="create" class="w-72 top-48 right-0"
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="@assets/guest-explore/thumb.png" alt="create" class="w-72 top-0 left-20"
+          src="../assets/guest-explore/thumb.png" alt="create" class="w-72 top-0 left-20"
           data-aos="fade-up"
           data-aos-delay="200">
         <img
-          src="@assets/guest-explore/choose.png" alt="create" class="w-72 top-32 right-6"
+          src="../assets/guest-explore/choose.png" alt="create" class="w-72 top-32 right-6"
           data-aos="fade-up"
           data-aos-delay="300">
       </figure>
@@ -87,19 +87,19 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="@assets/icons/explore.svg" alt="Jelajahi">
+            <img src="../assets/icons/explore.svg" alt="Jelajahi">
             Jelajahi
           </li>
           <li>
-            <img src="@assets/icons/search.svg" alt="Cari">
+            <img src="../assets/icons/search.svg" alt="Cari">
             Cari
           </li>
           <li>
-            <img src="@assets/icons/book.svg" alt="Pesan">
+            <img src="../assets/icons/book.svg" alt="Pesan">
             Pesan
           </li>
           <li>
-            <img src="@assets/icons/card.svg" alt="Bayar">
+            <img src="../assets/icons/card.svg" alt="Bayar">
             Bayar
           </li>
         </ul>
@@ -113,23 +113,23 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="@assets/your-activity/review.png" alt="create" class="w-72 top-20 left-0"
+          src="../assets/your-activity/review.png" alt="create" class="w-72 top-20 left-0"
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="@assets/your-activity/chat.png" alt="create" class="w-72 top-7 right-0"
+          src="../assets/your-activity/chat.png" alt="create" class="w-72 top-7 right-0"
           data-aos="fade-up"
           data-aos-delay="250">
         <img
-          src="@assets/your-activity/active.png" alt="create" class="w-72 top-5 left-20"
+          src="../assets/your-activity/active.png" alt="create" class="w-72 top-5 left-20"
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="@assets/your-activity/avatar.png" alt="create" class="w-16 top-16 right-0"
+          src="../assets/your-activity/avatar.png" alt="create" class="w-16 top-16 right-0"
           data-aos="fade-up"
           data-aos-delay="100">
         <img
-          src="@assets/your-activity/avatar2.png" alt="create" class="w-16 top-60 left-0"
+          src="../assets/your-activity/avatar2.png" alt="create" class="w-16 top-60 left-0"
           data-aos="fade-up"
           data-aos-delay="1000">
       </figure>
@@ -141,19 +141,19 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="@assets/icons/activity.svg" alt="Jalankan aktifitas">
+            <img src="../assets/icons/activity.svg" alt="Jalankan aktifitas">
             Jalankan aktifitas
           </li>
           <li>
-            <img src="@assets/icons/chat.svg" alt="Chat">
+            <img src="../assets/icons/chat.svg" alt="Chat">
             Chat
           </li>
           <li>
-            <img src="@assets/icons/broadcast.svg" alt="Broadcast">
+            <img src="../assets/icons/broadcast.svg" alt="Broadcast">
             Broadcast
           </li>
           <li>
-            <img src="@assets/icons/cs.svg" alt="Customer service">
+            <img src="../assets/icons/cs.svg" alt="Customer service">
             Jual paket
           </li>
         </ul>
@@ -167,15 +167,15 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="@assets/wallet/withdraw.png" alt="create" class="w-72 top-20 left-0"
+          src="../assets/wallet/withdraw.png" alt="create" class="w-72 top-20 left-0"
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="@assets/wallet/transaction.png" alt="create" class="w-72 top-7 right-0"
+          src="../assets/wallet/transaction.png" alt="create" class="w-72 top-7 right-0"
           data-aos="fade-up"
           data-aos-delay="150">
         <img
-          src="@assets/wallet/wallet.png" alt="create" class="w-72 top-0 left-16"
+          src="../assets/wallet/wallet.png" alt="create" class="w-72 top-0 left-16"
           data-aos="fade-up"
           data-aos-delay="250">
       </figure>
@@ -187,15 +187,15 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="@assets/icons/wallet.svg" alt="Wallet">
+            <img src="../assets/icons/wallet.svg" alt="Wallet">
             Wallet
           </li>
           <li>
-            <img src="@assets/icons/dollar.svg" alt="Pencairan dana">
+            <img src="../assets/icons/dollar.svg" alt="Pencairan dana">
             Pencairan dana
           </li>
           <li>
-            <img src="@assets/icons/transaction.svg" alt="History Transaksi">
+            <img src="../assets/icons/transaction.svg" alt="History Transaksi">
             History Transaksi
           </li>
         </ul>

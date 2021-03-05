@@ -1,6 +1,6 @@
 <template>
   <figure>
-    <a href=""><img class="teaser" :src="imgSrc" alt="pangandaran" /></a>
+    <a href=""><img class="teaser" :src="`@/assets/teaser/${imgSrc}`" alt="pangandaran" /></a>
     <figcaption :class="pos">
       <span>
         <div class="icon" :class="iconColor">
