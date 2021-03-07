@@ -27,23 +27,33 @@ export default {
 
 <style scoped>
 figure {
-  @apply relative mx-8;
+  @apply relative;
+  @apply mx-8;
 
   figcaption {
     @apply absolute;
 
     span {
-      @apply relative bg-night-20 text-grey-90 text-xs rounded-full py-1 pr-3 pl-12 shadow-2xl;
+      @apply relative;
+      @apply bg-night-20;
+      @apply text-grey-90 text-xs;
+      @apply rounded-full;
+      @apply py-1 pr-3 pl-12;
+      @apply shadow-2xl;
     }
   }
 }
 
 .icon {
-  @apply absolute -top-2 left-0 p-2 rounded-full shadow-xl;
+  @apply absolute -top-2 left-0;
+  @apply p-2;
+  @apply rounded-full;
+  @apply shadow-xl;
 }
 
 .teaser {
-  @apply rounded-full shadow-2xl;
+  @apply rounded-full;
+  @apply shadow-2xl;
   width: 250px;
   height: 400px;
 }

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <img src="../assets/hero.svg" alt="Land Rover Activity" />
+    <img src="../assets/hero.svg" alt="Land Rover Activity" width="539" height="528" />
     <article>
       <h1>Platform Penyedia Ragam Aktivitas Seru</h1>
       <p class="tagline">Jelajahi aktifitas seru yang aman</p>
@@ -31,25 +31,32 @@ export default {
 
 <style scoped>
 section {
-  @apply mt-32 container mx-auto px-16 flex justify-between items-start;
+  @apply container;
+  @apply md:max-w-screen-lg lg:max-w-screen-xl;
+  @apply flex justify-between items-center md:items-start flex-col md:flex-row;
+  @apply mt-24 md:mt-32 mx-auto px-2 lg:px-16;
 
   > img {
-    @apply relative -ml-8 mr-16;
+    @apply relative;
+    @apply w-72 md:w-1/2 lg:w-1/2 xl:w-auto;
+    @apply md:-ml-8 md:mr-8 lg:mr-16;
   }
 
   article {
-    @apply w-full pr-8 pt-8;
+    @apply w-full;
+    @apply md:pr-8 pt-8;
+    @apply text-center md:text-left;
 
     h1 {
-      @apply font-thin mb-2;
-      font-size: 5.2rem;
-      line-height: .85;
+      @apply font-thin text-55xl md:text-6xl lg:text-7xl xl:text-75xl leading-herotitle;
+      @apply mb-2;
       background-image: linear-gradient(135.73deg, #1425D0 -3.08%, #3FB3D6 79.23%);
       background-clip: text;
       color: transparent;
     }
     .tagline {
-      @apply font-light text-grey-60 text-2xl mb-24;
+      @apply font-light text-grey-60 text-xl;
+      @apply mb-12 md:mb-24;
     }
   }
 
@@ -65,7 +72,7 @@ section {
   @apply mt-5;
 
   button:first-child {
-    @apply mr-2;
+    @apply sm:mr-2 mb-2;
   }
 }
 

@@ -6,11 +6,11 @@
         1
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/1.svg" alt="Tour Kopi Gunung Keramat" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/1.svg" alt="Tour Kopi Gunung Keramat" width="250" height="400" /></a>
         <figcaption class="top-28 -left-5">
           <span>
             <div class="icon bg-teal-50">
-              <img src="@/assets/icons/bean.svg">
+              <img src="@/assets/icons/bean.svg" width="24" height="24">
             </div>
             Tour Kopi Gunung Keramat
           </span>
@@ -21,11 +21,11 @@
         2
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/2.svg" alt="Uji Nyali Babakan Siliwangi" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/2.svg" alt="Uji Nyali Babakan Siliwangi" width="250" height="400" /></a>
         <figcaption class="bottom-28 -left-5">
           <span>
             <div class="icon bg-gold-60">
-              <img src="@/assets/icons/ghost.svg">
+              <img src="@/assets/icons/ghost.svg" width="24" height="24">
             </div>
             Uji Nyali Babakan Siliwangi
           </span>
@@ -36,11 +36,11 @@
         3
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/3.svg" alt="BBQ Pit Abraham &amp; Smith" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/3.svg" alt="BBQ Pit Abraham &amp; Smith" width="250" height="400" /></a>
         <figcaption class="bottom-44 -left-5">
           <span>
             <div class="icon bg-blue-60">
-              <img src="@/assets/icons/bbq.svg">
+              <img src="@/assets/icons/bbq.svg" width="24" height="24">
             </div>
             BBQ Pit Abraham &amp; Smith
           </span>
@@ -51,11 +51,11 @@
         4
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/4.svg" alt="Longboarding di Bandung" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/4.svg" alt="Longboarding di Bandung" width="250" height="400" /></a>
         <figcaption class="top-28 -left-5">
           <span>
             <div class="icon bg-red-90">
-              <img src="@/assets/icons/skate.svg">
+              <img src="@/assets/icons/skate.svg" width="24" height="24">
             </div>
             Longboarding di Bandung
           </span>
@@ -84,29 +84,47 @@ section {
   background-position: center;
 
   > div {
-    @apply container mx-auto flex justify-center;
+    @apply container;
+    @apply mx-auto;
+    @apply flex justify-center flex-wrap;
   }
 }
 
 figure {
-  @apply relative mx-8;
+  @apply relative;
+  @apply w-3/4 sm:w-auto;
+  @apply mx-2 md:mx-8 mb-4;
+
+  a {
+    @apply block;
+  }
+  img {
+    @apply w-full;
+  }
 
   figcaption {
     @apply absolute;
 
     span {
-      @apply relative bg-night-20 text-grey-90 text-xs rounded-full py-1 pr-3 pl-12 shadow-2xl;
+      @apply relative;
+      @apply bg-night-20;
+      @apply text-grey-90 text-xs;
+      @apply rounded-full;
+      @apply py-1 pr-3 pl-12;
+      @apply shadow-2xl;
     }
   }
 }
 
 .icon {
-  @apply absolute -top-2 left-0 p-2 rounded-full shadow-xl;
+  @apply absolute -top-2 left-0;
+  @apply p-2;
+  @apply rounded-full;
+  @apply shadow-xl;
 }
 
 .teaser {
-  @apply rounded-full shadow-2xl;
-  width: 250px;
-  height: 400px;
+  @apply rounded-full;
+  @apply shadow-2xl;
 }
 </style>

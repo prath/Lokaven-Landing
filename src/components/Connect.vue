@@ -4,26 +4,26 @@
     <div class="connect">
       <div class="art">
         <Pill class="host shadow-lg" label="Host" />
-        <img src="../assets/hostconnector.svg" alt="guest connecting dots" class="host-connector">
-        <img src="../assets/host.svg" alt="Host">
+        <img src="../assets/hostconnector.svg" alt="guest connecting dots" class="host-connector" width="115" height="82">
+        <img src="../assets/host.svg" alt="Host" width="350" height="320">
       </div>
       <div class="text">
         <p class="host-desc">
           <strong>Host</strong> adalah anda yang memiliki paket usaha wisata, aktifitas seru & unik, workshop atau usaha sejenis
         </p>
-        <img class="connecting-dots" src="../assets/hostguestconnect.svg" alt="host connects to guest">
+        <img class="connecting-dots" src="../assets/hostguestconnect.svg" alt="host connects to guest" width="155" height="90">
         <p class="guest-desc">
           <strong>Guest</strong> adalah anda yang aktif dan ingin mendapatkan pengalaman baru nan seru
         </p>
         <div class="more">
           <span>Pelajari Lebih Lanjut</span>
-          <img src="../assets/icons/arrow-down.svg" >
+          <img src="../assets/icons/arrow-down.svg" alt="icon arrow down" width="10" height="10">
         </div>
       </div>
-      <div class="art w-80 -mt-5">
+      <div class="art">
         <Pill class="guest shadow-lg" label="Guest" />
-        <img src="../assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector">
-        <img src="../assets/guest.svg" alt="Host">
+        <img src="../assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector" width="85" height="50">
+        <img src="../assets/guest.svg" alt="Guest" width="350" height="320">
       </div>
     </div>
   </section>
@@ -42,14 +42,17 @@ export default {
 
 <style scoped>
 h2 {
-  @apply text-5xl font-thin text-center mb-16;
+  @apply font-light md:font-thin text-4xl sm:text-5xl  text-center leading-none;
+  @apply mb-16;
 }
 
 section {
-  @apply container mx-auto px-20;
+  @apply container;
+  @apply mx-auto px-5 md:px-20;
 
   .connect {
-    @apply flex justify-center items-start;
+    @apply flex flex-col md:flex-row justify-center items-center md:items-start;
+
     > div {
       @apply w-64;
     }
@@ -59,19 +62,26 @@ section {
     }
 
     .art {
-      @apply relative w-96;
+      @apply relative;
+      @apply w-72 md:w-96;
 
       .host {
-        @apply absolute top-8 right-20;
+        @apply absolute;
+        @apply top-8 right-10 md:right-20;
       }
       .guest {
-        @apply absolute bottom-20 left-8;
+        @apply absolute;
+        @apply bottom-20 left-8;
       }
+    }
+    .art:last-child {
+      @apply w-64 md:w-72;
     }
   }
 
   p {
-    @apply my-5 text-lg leading-tight;
+    @apply my-5;
+    @apply text-lg leading-tight;
 
     strong {
       @apply text-night-20 font-medium;
@@ -80,18 +90,20 @@ section {
       @apply mt-0;
     }
     &.guest-desc {
-      @apply mb-20;
+      @apply mb-5 md:mb-20;
     }
 
   }
 }
 
 .host-connector {
-  @apply absolute top-0 -right-8;
+  @apply hidden;
+  @apply md:absolute md:top-0 md:-right-8;
 }
 
 .guest-connector {
-  @apply absolute bottom-9 -left-14;
+  @apply hidden;
+  @apply md:absolute md:bottom-9 md:-left-14;
 }
 
 .text {
@@ -99,7 +111,10 @@ section {
 }
 
 .more {
-  @apply flex text-sm text-grey-60 mb-16;
+  @apply hidden;
+  @apply md:flex mb-16;
+  @apply text-sm text-grey-60;
+
   > * {
     @apply mr-2;
   }
