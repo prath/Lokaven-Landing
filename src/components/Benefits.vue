@@ -7,23 +7,23 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/host-manage/create.png" alt="create" class="w-60 sm:w-72 top-0 right-0" width="" height=""
+          src="../assets/host-manage/create.png" alt="create" class="w-60 sm:w-72 top-0 right-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="../assets/host-manage/prices.png" alt="create" class="w-60 sm:w-72 top-12 -left-3 md:left-0" width="" height=""
+          src="../assets/host-manage/prices.png" alt="create" class="w-60 sm:w-72 top-12 -left-3 md:left-0" width="" height="" loading="lazy"
           data-aos="fade-down"
           data-aos-delay="200">
         <img
-          src="../assets/host-manage/avatar.png" alt="create" class="w-16 top-8 left-5 md:left-16" width="" height=""
+          src="../assets/host-manage/avatar.png" alt="create" class="avatar w-16 top-8 left-5 md:left-16" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="100">
         <img
-          src="../assets/host-manage/preview.png" alt="create" class="w-60 sm:w-72 top-16 md:top-20 left-14" width="" height=""
+          src="../assets/host-manage/preview.png" alt="create" class="w-60 sm:w-72 top-16 md:top-20 left-14" width="" height="" loading="lazy"
           data-aos="fade-down"
           data-aos-delay="500">
         <img
-          src="../assets/host-manage/book.png" alt="create" class="w-60 sm:w-72 top-60 md:top-72 right-0" width="" height=""
+          src="../assets/host-manage/book.png" alt="create" class="w-60 sm:w-72 top-60 md:top-72 right-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="1000">
       </figure>
@@ -63,19 +63,19 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/guest-explore/book.png" alt="create" class="w-60 sm:w-72 top-7 -left-3 md:left-0" width="" height=""
+          src="../assets/guest-explore/book.png" alt="create" class="w-60 sm:w-72 top-7 -left-3 md:left-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="../assets/guest-explore/filter.png" alt="create" class="w-60 sm:w-72 top-32 md:top-48 right-0" width="" height=""
+          src="../assets/guest-explore/filter.png" alt="create" class="w-60 sm:w-72 top-32 md:top-48 right-0" width="" height="" loading="lazy"
           data-aos="fade-down"
           data-aos-delay="50">
         <img
-          src="../assets/guest-explore/thumb.png" alt="create" class="w-60 sm:w-72 top-0 left-10 md:left-20" width="" height=""
+          src="../assets/guest-explore/thumb.png" alt="create" class="w-60 sm:w-72 top-0 left-10 md:left-20" width="" height="" loading="lazy"
           data-aos="fade-down"
           data-aos-delay="200">
         <img
-          src="../assets/guest-explore/choose.png" alt="create" class="w-60 sm:w-72 top-48 md:top-32 right-6" width="" height=""
+          src="../assets/guest-explore/choose.png" alt="create" class="w-60 sm:w-72 top-48 md:top-32 right-6" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="300">
       </figure>
@@ -113,23 +113,23 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/your-activity/review.png" alt="create" class="w-60 sm:w-72 top-20 left-0" width="" height=""
+          src="../assets/your-activity/review.png" alt="create" class="w-60 sm:w-72 top-20 left-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="../assets/your-activity/chat.png" alt="create" class="w-60 sm:w-72 top-7 right-0" width="" height=""
+          src="../assets/your-activity/chat.png" alt="create" class="w-60 sm:w-72 top-7 right-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="250">
         <img
-          src="../assets/your-activity/active.png" alt="create" class="w-60 sm:w-72 -top-5 md:top-5 left-10 md:left-20" width="" height=""
+          src="../assets/your-activity/active.png" alt="create" class="w-60 sm:w-72 -top-5 md:top-5 left-10 md:left-20" width="" height="" loading="lazy"
           data-aos="fade-down"
           data-aos-delay="500">
         <img
-          src="../assets/your-activity/avatar.png" alt="create" class="w-16 top-5 md:top-16 right-0" width="" height=""
+          src="../assets/your-activity/avatar.png" alt="create" class="avatar w-16 top-5 md:top-16 right-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="100">
         <img
-          src="../assets/your-activity/avatar2.png" alt="create" class="w-16 top-60 left-0" width="" height=""
+          src="../assets/your-activity/avatar2.png" alt="create" class="avatar w-16 top-60 left-0" width="" height="" loading="lazy"
           data-aos="fade-up"
           data-aos-delay="1000">
       </figure>
@@ -167,15 +167,15 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/wallet/withdraw.png" alt="create" class="w-60 sm:w-72 top-20 -left-3 md:left-0" width="" height=""
+          loading="lazy" src="../assets/wallet/withdraw.png" alt="create" class="w-60 sm:w-72 top-20 -left-3 md:left-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="../assets/wallet/transaction.png" alt="create" class="w-60 sm:w-72 top-7 right-0" width="" height=""
+          loading="lazy" src="../assets/wallet/transaction.png" alt="create" class="w-60 sm:w-72 top-7 right-0" width="" height=""
           data-aos="fade-down"
           data-aos-delay="150">
         <img
-          src="../assets/wallet/wallet.png" alt="create" class="w-60 sm:w-72 top-0 left-16" width="" height=""
+          loading="lazy" src="../assets/wallet/wallet.png" alt="create" class="w-60 sm:w-72 top-0 left-16" width="" height=""
           data-aos="fade-up"
           data-aos-delay="250">
       </figure>
@@ -236,16 +236,21 @@ h3 {
 
 .app-thumbs {
   @apply relative;
-  @apply h-80 md:h-full w-80 md:w-450;
+  @apply h-96 md:h-450 w-80 md:w-450;
 
   img {
+    @apply rounded-2xl;
     @apply absolute;
+    @apply shadow-xl;
+    &.avatar {
+      @apply rounded-full;
+    }
   }
 }
 
 .text {
   @apply px-2 md:px-16 mt-14;
-  @apply w-80 md:w-600;
+  @apply w-80 sm:w-96 md:w-600;
 
   p {
     @apply text-lg leading-tight;

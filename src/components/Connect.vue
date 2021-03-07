@@ -5,7 +5,7 @@
       <div class="art">
         <Pill class="host shadow-lg" label="Host" />
         <img src="../assets/hostconnector.svg" alt="guest connecting dots" class="host-connector" width="115" height="82">
-        <img src="../assets/host.svg" alt="Host" width="350" height="320">
+        <img src="../assets/host.svg" alt="Host" width="350" height="320" loading="lazy">
       </div>
       <div class="text">
         <p class="host-desc">
@@ -23,7 +23,7 @@
       <div class="art">
         <Pill class="guest shadow-lg" label="Guest" />
         <img src="../assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector" width="85" height="50">
-        <img src="../assets/guest.svg" alt="Guest" width="350" height="320">
+        <img src="../assets/guest.svg" alt="Guest" width="350" height="320" loading="lazy">
       </div>
     </div>
   </section>

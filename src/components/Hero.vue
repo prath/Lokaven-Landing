@@ -1,6 +1,6 @@
 <template>
   <section>
-    <img src="../assets/hero.svg" alt="Land Rover Activity" width="539" height="528" />
+    <img src="../assets/hero.svg" alt="Land Rover Activity" width="539" height="528" loading="lazy">
     <article>
       <h1>Platform Penyedia Ragam Aktivitas Seru</h1>
       <p class="tagline">Jelajahi aktifitas seru yang aman</p>
