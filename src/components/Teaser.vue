@@ -6,7 +6,7 @@
         1
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/1.svg" alt="Tour Kopi Gunung Keramat" width="250" height="400" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/1.svg" alt="Tour Kopi Gunung Keramat" width="250" height="400" loading="lazy"></a>
         <figcaption class="top-28 -left-5">
           <span>
             <div class="icon bg-teal-50">
@@ -21,7 +21,7 @@
         2
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/2.svg" alt="Uji Nyali Babakan Siliwangi" width="250" height="400" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/2.svg" alt="Uji Nyali Babakan Siliwangi" width="250" height="400" loading="lazy"></a>
         <figcaption class="bottom-28 -left-5">
           <span>
             <div class="icon bg-gold-60">
@@ -36,7 +36,7 @@
         3
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/3.svg" alt="BBQ Pit Abraham &amp; Smith" width="250" height="400" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/3.svg" alt="BBQ Pit Abraham &amp; Smith" width="250" height="400" loading="lazy"></a>
         <figcaption class="bottom-44 -left-5">
           <span>
             <div class="icon bg-blue-60">
@@ -51,7 +51,7 @@
         4
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/4.svg" alt="Longboarding di Bandung" width="250" height="400" /></a>
+        <a href=""><img class="teaser" src="@/assets/teaser/4.svg" alt="Longboarding di Bandung" width="250" height="400" loading="lazy"></a>
         <figcaption class="top-28 -left-5">
           <span>
             <div class="icon bg-red-90">
