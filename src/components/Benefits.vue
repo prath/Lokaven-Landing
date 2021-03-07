@@ -7,23 +7,23 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/host-manage/create.png" alt="create" class="w-72 top-0 right-0"
+          src="../assets/host-manage/create.png" alt="create" class="w-60 sm:w-72 top-0 right-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="../assets/host-manage/prices.png" alt="create" class="w-72 top-7 left-0"
+          src="../assets/host-manage/prices.png" alt="create" class="w-60 sm:w-72 top-12 -left-3 md:left-0" width="" height=""
           data-aos="fade-down"
           data-aos-delay="200">
         <img
-          src="../assets/host-manage/avatar.png" alt="create" class="w-16 top-2 left-16"
+          src="../assets/host-manage/avatar.png" alt="create" class="w-16 top-8 left-5 md:left-16" width="" height=""
           data-aos="fade-up"
           data-aos-delay="100">
         <img
-          src="../assets/host-manage/preview.png" alt="create" class="w-72 top-20 left-16"
+          src="../assets/host-manage/preview.png" alt="create" class="w-60 sm:w-72 top-16 md:top-20 left-14" width="" height=""
           data-aos="fade-down"
           data-aos-delay="500">
         <img
-          src="../assets/host-manage/book.png" alt="create" class="w-72 top-72 right-8"
+          src="../assets/host-manage/book.png" alt="create" class="w-60 sm:w-72 top-60 md:top-72 right-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="1000">
       </figure>
@@ -37,19 +37,19 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="../assets/icons/create-package.svg" alt="Buat paket">
+            <img src="../assets/icons/create-package.svg" alt="Buat paket" width="10" height="10">
             Buat paket
           </li>
           <li>
-            <img src="../assets/icons/schedule.svg" alt="Set jadwal">
+            <img src="../assets/icons/schedule.svg" alt="Set jadwal" width="10" height="10">
             Set jadwal
           </li>
           <li>
-            <img src="../assets/icons/price.svg" alt="Tentukan harga">
+            <img src="../assets/icons/price.svg" alt="Tentukan harga" width="10" height="10">
             Tentukan harga
           </li>
           <li>
-            <img src="../assets/icons/check.svg" alt="Jual paket">
+            <img src="../assets/icons/check.svg" alt="Jual paket" width="10" height="10">
             Jual paket
           </li>
         </ul>
@@ -63,19 +63,19 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/guest-explore/book.png" alt="create" class="w-72 top-7 left-0"
+          src="../assets/guest-explore/book.png" alt="create" class="w-60 sm:w-72 top-7 -left-3 md:left-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="../assets/guest-explore/filter.png" alt="create" class="w-72 top-48 right-0"
-          data-aos="fade-up"
+          src="../assets/guest-explore/filter.png" alt="create" class="w-60 sm:w-72 top-32 md:top-48 right-0" width="" height=""
+          data-aos="fade-down"
           data-aos-delay="50">
         <img
-          src="../assets/guest-explore/thumb.png" alt="create" class="w-72 top-0 left-20"
-          data-aos="fade-up"
+          src="../assets/guest-explore/thumb.png" alt="create" class="w-60 sm:w-72 top-0 left-10 md:left-20" width="" height=""
+          data-aos="fade-down"
           data-aos-delay="200">
         <img
-          src="../assets/guest-explore/choose.png" alt="create" class="w-72 top-32 right-6"
+          src="../assets/guest-explore/choose.png" alt="create" class="w-60 sm:w-72 top-48 md:top-32 right-6" width="" height=""
           data-aos="fade-up"
           data-aos-delay="300">
       </figure>
@@ -87,19 +87,19 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="../assets/icons/explore.svg" alt="Jelajahi">
+            <img src="../assets/icons/explore.svg" alt="Jelajahi" width="10" height="10">
             Jelajahi
           </li>
           <li>
-            <img src="../assets/icons/search.svg" alt="Cari">
+            <img src="../assets/icons/search.svg" alt="Cari" width="10" height="10">
             Cari
           </li>
           <li>
-            <img src="../assets/icons/book.svg" alt="Pesan">
+            <img src="../assets/icons/book.svg" alt="Pesan" width="10" height="10">
             Pesan
           </li>
           <li>
-            <img src="../assets/icons/card.svg" alt="Bayar">
+            <img src="../assets/icons/card.svg" alt="Bayar" width="10" height="10">
             Bayar
           </li>
         </ul>
@@ -113,23 +113,23 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/your-activity/review.png" alt="create" class="w-72 top-20 left-0"
+          src="../assets/your-activity/review.png" alt="create" class="w-60 sm:w-72 top-20 left-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="50">
         <img
-          src="../assets/your-activity/chat.png" alt="create" class="w-72 top-7 right-0"
+          src="../assets/your-activity/chat.png" alt="create" class="w-60 sm:w-72 top-7 right-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="250">
         <img
-          src="../assets/your-activity/active.png" alt="create" class="w-72 top-5 left-20"
-          data-aos="fade-up"
+          src="../assets/your-activity/active.png" alt="create" class="w-60 sm:w-72 -top-5 md:top-5 left-10 md:left-20" width="" height=""
+          data-aos="fade-down"
           data-aos-delay="500">
         <img
-          src="../assets/your-activity/avatar.png" alt="create" class="w-16 top-16 right-0"
+          src="../assets/your-activity/avatar.png" alt="create" class="w-16 top-5 md:top-16 right-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="100">
         <img
-          src="../assets/your-activity/avatar2.png" alt="create" class="w-16 top-60 left-0"
+          src="../assets/your-activity/avatar2.png" alt="create" class="w-16 top-60 left-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="1000">
       </figure>
@@ -141,19 +141,19 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="../assets/icons/activity.svg" alt="Jalankan aktifitas">
+            <img src="../assets/icons/activity.svg" alt="Jalankan aktifitas" width="10" height="10">
             Jalankan aktifitas
           </li>
           <li>
-            <img src="../assets/icons/chat.svg" alt="Chat">
+            <img src="../assets/icons/chat.svg" alt="Chat" width="10" height="10">
             Chat
           </li>
           <li>
-            <img src="../assets/icons/broadcast.svg" alt="Broadcast">
+            <img src="../assets/icons/broadcast.svg" alt="Broadcast" width="10" height="10">
             Broadcast
           </li>
           <li>
-            <img src="../assets/icons/cs.svg" alt="Customer service">
+            <img src="../assets/icons/cs.svg" alt="Customer service" width="10" height="10">
             Jual paket
           </li>
         </ul>
@@ -167,15 +167,15 @@
     <article>
       <figure class="app-thumbs">
         <img
-          src="../assets/wallet/withdraw.png" alt="create" class="w-72 top-20 left-0"
+          src="../assets/wallet/withdraw.png" alt="create" class="w-60 sm:w-72 top-20 -left-3 md:left-0" width="" height=""
           data-aos="fade-up"
           data-aos-delay="500">
         <img
-          src="../assets/wallet/transaction.png" alt="create" class="w-72 top-7 right-0"
-          data-aos="fade-up"
+          src="../assets/wallet/transaction.png" alt="create" class="w-60 sm:w-72 top-7 right-0" width="" height=""
+          data-aos="fade-down"
           data-aos-delay="150">
         <img
-          src="../assets/wallet/wallet.png" alt="create" class="w-72 top-0 left-16"
+          src="../assets/wallet/wallet.png" alt="create" class="w-60 sm:w-72 top-0 left-16" width="" height=""
           data-aos="fade-up"
           data-aos-delay="250">
       </figure>
@@ -187,15 +187,15 @@
         </p>
         <ul class="feature-list">
           <li>
-            <img src="../assets/icons/wallet.svg" alt="Wallet">
+            <img src="../assets/icons/wallet.svg" alt="Wallet" width="10" height="10">
             Wallet
           </li>
           <li>
-            <img src="../assets/icons/dollar.svg" alt="Pencairan dana">
+            <img src="../assets/icons/dollar.svg" alt="Pencairan dana" width="10" height="10">
             Pencairan dana
           </li>
           <li>
-            <img src="../assets/icons/transaction.svg" alt="History Transaksi">
+            <img src="../assets/icons/transaction.svg" alt="History Transaksi" width="10" height="10">
             History Transaksi
           </li>
         </ul>
@@ -223,35 +223,42 @@ section {
 }
 
 article {
-  @apply container mx-auto px-20 pt-14 pb-36 flex justify-center;
+  @apply container;
+  @apply mx-auto px-5 md:px-20 pt-10 md:pt-14 pb-10 md:pb-36;
+  @apply flex justify-center flex-col md:flex-row;
   @apply border-b border-gray-300 border-dotted;
 }
 
 h3 {
-  @apply text-3xl mb-6;
+  @apply text-3xl;
+  @apply mb-6;
 }
 
 .app-thumbs {
-  @apply relative h-full;
-  width: 450px;
+  @apply relative;
+  @apply h-80 md:h-full w-80 md:w-450;
+
   img {
     @apply absolute;
   }
 }
 
 .text {
-  @apply px-16 mt-14;
-  width: 600px;
+  @apply px-2 md:px-16 mt-14;
+  @apply w-80 md:w-600;
+
   p {
     @apply text-lg leading-tight;
   }
 }
 
 .feature-list {
-  @apply text-sm flex flex-wrap justify-start items-baseline mt-36;
+  @apply text-sm flex flex-wrap justify-start items-baseline;
+  @apply mt-10 md:mt-36;
 
   li {
-    @apply flex justify-start mr-3;
+    @apply flex justify-start;
+    @apply mr-3;
     img {
       @apply mr-1;
     }

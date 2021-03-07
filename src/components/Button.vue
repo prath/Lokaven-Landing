@@ -16,12 +16,16 @@ export default {
 
 <style scoped>
 button {
-  @apply bg-marine-50 py-3 px-8 rounded-full text-white;
+  @apply bg-marine-50;
+  @apply py-3 px-8;
+  @apply rounded-full;
+  @apply text-white;
   @apply border-solid border-2 border-marine-50;
 
   &.secondary {
     @apply border-solid border-2 border-marine-50;
-    @apply bg-white text-marine-50;
+    @apply bg-white;
+    @apply text-marine-50;
     &:hover {
       @apply opacity-50;
     }
@@ -35,7 +39,8 @@ button {
   }
 
   &.small {
-    @apply py-1 px-5 text-sm;
+    @apply py-1 px-5;
+    @apply text-sm;
   }
 }
 </style>

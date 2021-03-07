@@ -36,6 +36,22 @@ module.exports = {
         blue: {
           60: '#3C9FF6'
         }
+      },
+      fontSize: {
+        '45xl': '2.8rem',
+        '55xl': '3.2rem',
+        '75xl': '5.2rem'
+      },
+      lineHeight: {
+        'herotitle': '0.85'
+      },
+      width: {
+        '450': '28rem',
+        '600': '37.5rem'
+      },
+      height: {
+        '450': '28rem',
+        '600': '37.5rem'
       }
     },
   },

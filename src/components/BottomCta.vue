@@ -31,22 +31,26 @@ export default {
 
 <style scoped>
 article {
-  @apply container mx-auto text-center my-28;
+  @apply container;
+  @apply mx-auto my-14 md:my-28;
+  @apply text-center;
 }
 
 h2 {
-  @apply text-5xl font-thin text-center mb-6;
+  @apply text-4xl md:text-5xl font-light md:font-thin text-center;
+  @apply mb-6 px-5;
 }
 
 p {
-  @apply px-80 text-lg leading-tight;
+  @apply px-5 md:px-20 lg:px-48 xl:px-80;
+  @apply text-lg leading-tight;
 }
 
 .call-to-actions {
   @apply mt-28;
 
   button:first-child {
-    @apply mr-2;
+    @apply md:mr-2 mb-2;
   }
 }
 </style>

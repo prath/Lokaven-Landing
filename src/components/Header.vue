@@ -1,8 +1,11 @@
 <template>
   <header>
     <div class="header-container">
-      <img src="../assets/logo.svg" alt="Lokaven" />
-      <div class="contact-info">
+      <div>
+        <img src="../assets/logo.svg" alt="Lokaven" class="logo" width="125" height="30"/>
+        <!-- <img src="../assets/logogram.svg" alt="Lokaven" class="logogram"/> -->
+      </div>
+      <div class="menu">
         <div class="small-cta">
           <Button
             label="Daftar Sebagai Host"
@@ -21,10 +24,12 @@
             data-aos-anchor-placement="top-center"
           />
         </div>
-        <img src="../assets/icons/phone.svg" alt="contact person" />
-        <a href="tel:081320471003">081320471003</a>
-        <span>-</span>
-        <span>Hafidz Mukti</span>
+        <div class="contact-info">
+          <img src="../assets/icons/phone.svg" alt="contact person" width="14" height="20">
+          <a href="tel:081320471003">081320471003</a>
+          <span class="separator">-</span>
+          <span class="cp">Hafidz Mukti</span>
+        </div>
       </div>
     </div>
   </header>
@@ -42,19 +47,28 @@ export default {
 </script>
 
 <style scoped>
+.logo {
+  @apply ml-5 md:ml-0;
+}
+
 header {
-  @apply fixed w-full top-0 bg-white z-50;
+  @apply fixed top-0 z-50;
+  @apply  w-full;
+  @apply  bg-white;
 
   .header-container {
-    @apply container mx-auto h-24 flex justify-between items-center;
+    @apply container;
+    @apply flex justify-between items-center;
+    @apply mx-auto;
+    @apply h-24;
   }
 
   img {
     @apply h-7;
   }
 
-  .contact-info {
-    @apply flex justify-start items-center;
+  .menu {
+    @apply flex flex-wrap justify-end items-center;
 
     > * {
       @apply mr-2;
@@ -75,8 +89,20 @@ header {
 }
 
 .small-cta {
+  @apply hidden;
+  @apply md:block;
   button {
     @apply mr-2;
+  }
+}
+
+.contact-info {
+  @apply flex items-center;
+  > * {
+    @apply mr-1
+  }
+  .cp, .separator {
+    @apply hidden sm:inline-block;
   }
 }
 </style>
