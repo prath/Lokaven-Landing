@@ -8,10 +8,12 @@
     </p>
     <div class="call-to-actions">
       <Button
+        @click="$router.push('/host-signup')"
         label="Daftar Sebagai Host"
         varian="primary"
       />
       <Button
+        @click="$router.push('/guest-signup')"
         label="Daftar Sebagai Guest"
         varian="secondary"
       />
@@ -20,7 +22,7 @@
 </template>
 
 <script>
-import Button from './Button.vue'
+import Button from '@/components/Button.vue'
 export default {
   name: 'BottomCta',
   components: {

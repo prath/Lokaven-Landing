@@ -5,37 +5,37 @@
       <ul class="extra-benefits">
         <li>
           <div>
-            <img src="../assets/icons/market.svg" alt="Memasarkan" class="exc">
+            <img src="@/assets/icons/market.svg" alt="Memasarkan" class="exc" width="18" height="18">
             Membantu memasarkan layanan milik Host
           </div>
         </li>
         <li>
           <div>
-            <img src="../assets/icons/create-content.svg" alt="Membuat Konten">
+            <img src="@/assets/icons/create-content.svg" alt="Membuat Konten" width="18" height="18">
             Bekerja sama membuat konten dengan Host
           </div>
         </li>
         <li>
           <div>
-            <img src="../assets/icons/cloud.svg" alt="Kampanye Ramah Lingkungan">
+            <img src="@/assets/icons/cloud.svg" alt="Kampanye Ramah Lingkungan" width="18" height="18">
             Mengkampanyekan gerakan wisata ramah lingkungan
           </div>
         </li>
         <li>
           <div>
-            <img src="../assets/icons/case.svg" alt="Mendampingi Host">
+            <img src="@/assets/icons/case.svg" alt="Mendampingi Host" width="18" height="18">
             Mendampingi dalam konsultasi bisnis agar Host dapat bertumbuh &amp; mencapai profit
           </div>
         </li>
         <li>
           <div>
-            <img src="../assets/icons/box.svg" alt="Mengatur Quota">
+            <img src="@/assets/icons/box.svg" alt="Mengatur Quota" width="18" height="18">
             Host dapat mengatur jumlah quota guest di tengah pandemi
           </div>
         </li>
         <li>
           <div>
-            <img src="../assets/icons/recommendation.svg" alt="Rekomendasi Aktifitas">
+            <img src="@/assets/icons/recommendation.svg" alt="Rekomendasi Aktifitas" width="18" height="18">
             Guest mendapatkan rekomendasi paket aktifitas sesuai minat
           </div>
         </li>

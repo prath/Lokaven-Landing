@@ -4,33 +4,33 @@
     <div class="connect">
       <div class="art">
         <Pill class="host shadow-lg" label="Host" />
-        <img src="../assets/hostconnector.svg" alt="guest connecting dots" class="host-connector" width="115" height="82">
-        <img src="../assets/host.svg" alt="Host" width="350" height="320" loading="lazy">
+        <img src="@/assets/hostconnector.svg" alt="guest connecting dots" class="host-connector" width="115" height="82">
+        <img src="@/assets/host.svg" alt="Host" width="350" height="320" loading="lazy">
       </div>
       <div class="text">
         <p class="host-desc">
           <strong>Host</strong> adalah anda yang memiliki paket usaha wisata, aktifitas seru & unik, workshop atau usaha sejenis
         </p>
-        <img class="connecting-dots" src="../assets/hostguestconnect.svg" alt="host connects to guest" width="155" height="90">
+        <img class="connecting-dots" src="@/assets/hostguestconnect.svg" alt="host connects to guest" width="155" height="90">
         <p class="guest-desc">
           <strong>Guest</strong> adalah anda yang aktif dan ingin mendapatkan pengalaman baru nan seru
         </p>
         <div class="more">
           <span>Pelajari Lebih Lanjut</span>
-          <img src="../assets/icons/arrow-down.svg" alt="icon arrow down" width="10" height="10">
+          <img src="@/assets/icons/arrow-down.svg" alt="icon arrow down" width="10" height="10">
         </div>
       </div>
       <div class="art">
         <Pill class="guest shadow-lg" label="Guest" />
-        <img src="../assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector" width="85" height="50">
-        <img src="../assets/guest.svg" alt="Guest" width="350" height="320" loading="lazy">
+        <img src="@/assets/guestconnector.svg" alt="guest connecting dots" class="guest-connector" width="85" height="50">
+        <img src="@/assets/guest.svg" alt="Guest" width="350" height="320" loading="lazy">
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import Pill from './Pill.vue'
+import Pill from '@/components/Pill.vue'
 
 export default {
   name: 'Connect',

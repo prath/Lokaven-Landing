@@ -1,16 +1,18 @@
 <template>
   <section>
-    <img src="../assets/hero.svg" alt="Land Rover Activity" width="539" height="528" loading="lazy">
+    <img src="@/assets/hero.svg" alt="Land Rover Activity" width="539" height="528" loading="lazy">
     <article>
       <h1>Platform Penyedia Ragam Aktivitas Seru</h1>
       <p class="tagline">Jelajahi aktifitas seru yang aman</p>
       <p class="lead">Tertarik untuk mencoba platform kami? daftarkan diri Anda atau perusahaan Anda sekarang </p>
       <div class="call-to-actions">
         <Button
+          @click="$router.push('/host-signup')"
           label="Daftar Sebagai Host"
           varian="primary"
         />
         <Button
+          @click="$router.push('/guest-signup')"
           label="Daftar Sebagai Guest"
           varian="secondary"
         />
@@ -20,11 +22,23 @@
 </template>
 
 <script>
-import Button from './Button.vue'
+import { ref } from 'vue'
+import Button from '@/components/Button.vue'
 export default {
   name: 'Hero',
   components: {
     Button
+  },
+  setup() {
+    const hostSignup = ref(false)
+
+    const toggleHostSignup = () => {
+      hostSignup.value = !hostSignup.value
+    }
+
+    return {
+      toggleHostSignup
+    }
   }
 }
 </script>

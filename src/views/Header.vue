@@ -2,12 +2,13 @@
   <header>
     <div class="header-container">
       <div>
-        <img src="../assets/logo.svg" alt="Lokaven" class="logo" width="125" height="30"/>
-        <!-- <img src="../assets/logogram.svg" alt="Lokaven" class="logogram"/> -->
+        <img src="@/assets/logo.svg" alt="Lokaven" class="logo" width="125" height="30"/>
+        <!-- <img src="@/assets/logogram.svg" alt="Lokaven" class="logogram"/> -->
       </div>
       <div class="menu">
         <div class="small-cta">
           <Button
+            @click="$router.push('/host-signup')"
             label="Daftar Sebagai Host"
             varian="primary small"
             data-aos="fade"
@@ -16,6 +17,7 @@
             data-aos-anchor-placement="top-center"
           />
           <Button
+            @click="$router.push('/guest-signup')"
             label="Daftar Sebagai Guest"
             varian="secondary small"
             data-aos="fade"
@@ -25,7 +27,7 @@
           />
         </div>
         <div class="contact-info">
-          <img src="../assets/icons/phone.svg" alt="contact person" width="14" height="20">
+          <img src="@/assets/icons/phone.svg" alt="contact person" width="14" height="20">
           <a href="tel:081320471003">081320471003</a>
           <span class="separator">-</span>
           <span class="cp">Hafidz Mukti</span>
@@ -36,7 +38,7 @@
 </template>
 
 <script>
-import Button from './Button.vue'
+import Button from '@/components/Button.vue'
 
 export default {
   name: 'Header',
@@ -52,7 +54,7 @@ export default {
 }
 
 header {
-  @apply fixed top-0 z-50;
+  @apply fixed top-0 z-20;
   @apply  w-full;
   @apply  bg-white;
 

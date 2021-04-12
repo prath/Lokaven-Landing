@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: -apple-system, system-ui,  BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  @apply text-grey-40;
+
+  &.modal-opened {
+    @apply overflow-y-hidden;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-night-20;
+}
+
+.small-muted-text {
+  @apply text-sm text-grey-60 leading-tight;
+}

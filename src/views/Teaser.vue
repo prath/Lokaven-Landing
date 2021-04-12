@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import TeaserImage from './TeaserImage.vue'
+import TeaserImage from '@/components/TeaserImage.vue'
 export default {
   name: 'Teaser',
   components: {
@@ -79,7 +79,7 @@ export default {
 <style scoped>
 section {
   @apply py-20;
-  background-image: url('../assets/bgactivity.svg');
+  background-image: url('@/assets/bgactivity.svg');
   background-repeat: repeat-x;
   background-position: center;
 
