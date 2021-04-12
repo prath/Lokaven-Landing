@@ -138,7 +138,7 @@ export default {
 
 <style scoped>
 h2 {
-  @apply font-light md:font-thin text-white text-4xl sm:text-5xl leading-none;
+  @apply font-light md:font-thin text-white text-3xl sm:text-5xl leading-none;
   @apply mb-16 -ml-3;
   @apply absolute bottom-0;
 }
@@ -172,7 +172,7 @@ h3 + p {
   @apply md:max-w-screen-lg lg:max-w-screen-xl;
   @apply bg-white;
   @apply rounded-lg;
-  @apply mx-auto my-28;
+  @apply mx-auto my-16 sm:my-28;
 }
 
 .two-column {
@@ -189,7 +189,7 @@ h3 + p {
   .right {
     @apply w-full md:w-3/5 h-full;
     @apply rounded-lg;
-    @apply py-14 px-14;
+    @apply py-8 sm:py-14 px-8 sm:px-14;
     @apply bg-grey-90;
     @apply overflow-scroll;
   }
