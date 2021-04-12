@@ -182,7 +182,7 @@ h3 + p {
     @apply relative;
     @apply w-full md:w-2/5 h-52 md:h-auto;
     @apply p-14;
-    background-image: url('@/assets/teaser/1.svg');
+    background-image: url('@/assets/teaser/3.svg');
     @apply bg-no-repeat bg-clip-border bg-cover;
     @apply rounded-l-lg
   }
