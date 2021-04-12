@@ -21,6 +21,7 @@
         </p>
 
         <section class="error-msg" v-if="err">
+          {{ errmsg }}<br>
           Mohon maaf, proses signup tidak dapat dilakukan saat ini, mohon mencoba lagi. Terima kasih.
         </section>
 
@@ -85,6 +86,7 @@ export default {
     const loading = ref(true)
     const succeeded = ref(false)
     const err = ref(false)
+    const errmsg = ref('')
 
     const firstname = ref('')
     const lastname = ref('')
@@ -110,8 +112,8 @@ export default {
         }
 
       } catch (error) {
-        console.log(error)
         err.value = true
+        errmsg.value = error.response.data.title
         loading.value = true
         succeeded.value = false
       }
@@ -122,9 +124,12 @@ export default {
       loading,
       succeeded,
       err,
+      errmsg,
+
       firstname,
       lastname,
       email,
+
       signup
     }
   }
