@@ -28,7 +28,7 @@
         </div>
         <div class="contact-info">
           <img src="@/assets/icons/phone.svg" alt="contact person" width="14" height="20">
-          <a href="tel:081320471003">081320471003</a>
+          <a href="tel:08562040108">08562040108</a>
           <span class="separator">-</span>
           <span class="cp">Hafidz Mukti</span>
         </div>

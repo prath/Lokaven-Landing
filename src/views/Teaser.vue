@@ -6,13 +6,13 @@
         1
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/1.svg" alt="Tour Kopi Gunung Keramat" width="250" height="400" loading="lazy"></a>
+        <a href="https://youtu.be/2RtOhSibz9U"><img class="teaser" src="@/assets/teaser/1.svg" alt="Tour Kopi Gunung Keramat" width="250" height="400" loading="lazy"></a>
         <figcaption class="top-28 -left-5">
           <span>
             <div class="icon bg-teal-50">
               <img src="@/assets/icons/bean.svg" width="24" height="24">
             </div>
-            Tour Kopi Gunung Keramat
+            Land Rover di Kebun Kopi Lembang
           </span>
         </figcaption>
       </figure>
@@ -21,13 +21,13 @@
         2
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/2.svg" alt="Uji Nyali Babakan Siliwangi" width="250" height="400" loading="lazy"></a>
+        <a href="https://youtu.be/zkQiN1vVEro"><img class="teaser" src="@/assets/teaser/2.svg" alt="Off Road Honda Win di Lembang" width="250" height="400" loading="lazy"></a>
         <figcaption class="bottom-28 -left-5">
           <span>
             <div class="icon bg-gold-60">
               <img src="@/assets/icons/ghost.svg" width="24" height="24">
             </div>
-            Uji Nyali Babakan Siliwangi
+            Off Road Honda Win di Lembang
           </span>
         </figcaption>
       </figure>
@@ -36,7 +36,7 @@
         3
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/3.svg" alt="BBQ Pit Abraham &amp; Smith" width="250" height="400" loading="lazy"></a>
+        <a href="https://youtu.be/_lM1nUk87Mg"><img class="teaser" src="@/assets/teaser/3.svg" alt="BBQ Pit Abraham &amp; Smith" width="250" height="400" loading="lazy"></a>
         <figcaption class="bottom-44 -left-5">
           <span>
             <div class="icon bg-blue-60">
@@ -51,7 +51,7 @@
         4
        -->
       <figure>
-        <a href=""><img class="teaser" src="@/assets/teaser/4.svg" alt="Longboarding di Bandung" width="250" height="400" loading="lazy"></a>
+        <a href="https://youtu.be/mcGprbWs7uk"><img class="teaser" src="@/assets/teaser/4.svg" alt="Longboarding di Bandung" width="250" height="400" loading="lazy"></a>
         <figcaption class="top-28 -left-5">
           <span>
             <div class="icon bg-red-90">
