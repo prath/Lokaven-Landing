@@ -26,7 +26,7 @@ import Button from '@/components/Button.vue'
 export default {
   name: 'BottomCta',
   components: {
-    Button
+    Button,
   }
 }
 </script>
