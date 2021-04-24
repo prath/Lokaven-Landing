@@ -22,29 +22,29 @@ jobs:
           yarn build 
           # yarn test --passWithNoTests
 
-      - name: Docker Login
-        env:
-          DOCKER_ID: ${{ secrets.DOCKER_ID }}
-          DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
-        run: |
-          docker login -u  $DOCKER_ID -p $DOCKER_PASS
+      # - name: Docker Login
+      #   env:
+      #     DOCKER_ID: ${{ secrets.DOCKER_ID }}
+      #     DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
+      #   run: |
+      #     docker login -u  $DOCKER_ID -p $DOCKER_PASS
       
-      - name: Docker Build
-        run: |
-          docker build --pull --tag lokaventour/admin-vue:staging-${GITHUB_RUN_ID} -f ./Dockerfile .              
+      # - name: Docker Build
+      #   run: |
+      #     docker build --pull --tag lokaventour/admin-vue:staging-${GITHUB_RUN_ID} -f ./Dockerfile .              
 
-      - name: Docker Push
-        run: |
-          docker push lokaventour/admin-vue:staging-${GITHUB_RUN_ID}
+      # - name: Docker Push
+      #   run: |
+      #     docker push lokaventour/admin-vue:staging-${GITHUB_RUN_ID}
 
-      - uses: digitalocean/action-doctl@v2
-        with:
-          token: ${{ secrets.DO_TOKEN }}
+      # - uses: digitalocean/action-doctl@v2
+      #   with:
+      #     token: ${{ secrets.DO_TOKEN }}
 
-      - name: Deploy to K8s
-        run: |
-          doctl kubernetes cluster kubeconfig save lokaven
-          kubectl set image deployment/landing-staging landing-staging=lokaventour/admin-vue:staging-${GITHUB_RUN_ID}
+      # - name: Deploy to K8s
+      #   run: |
+      #     doctl kubernetes cluster kubeconfig save lokaven
+      #     kubectl set image deployment/landing-staging landing-staging=lokaventour/admin-vue:staging-${GITHUB_RUN_ID}
 
  
       - name: Slack Notification

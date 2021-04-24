@@ -4,7 +4,7 @@ metadata:
   name: landing-stage
 spec:
   selector:
-    app: landing-stage
+    app: landing-staging
   ports:
   - port: 80
     targetPort: 8080
