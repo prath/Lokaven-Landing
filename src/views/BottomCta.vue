@@ -17,6 +17,7 @@
         label="Daftar Sebagai Guest"
         varian="secondary"
       />
+      cuuuuy
     </div>
   </article>
 </template>
