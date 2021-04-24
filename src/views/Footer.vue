@@ -12,6 +12,7 @@ export default {
 
 <style scoped>
 footer {
-  @apply text-center text-sm text-grey-60 mb-10;
+  @apply text-center text-sm text-grey-60;
+  @apply mb-10;
 }
 </style>

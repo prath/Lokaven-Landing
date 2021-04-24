@@ -14,13 +14,16 @@ export default {
 
 <style scoped>
 span {
-  @apply py-1 px-3 rounded-full;
+  @apply py-1 px-3;
+  @apply rounded-full;
 
   &.host {
-    @apply bg-marine-50 text-grey-90;
+    @apply bg-marine-50;
+    @apply text-grey-90;
   }
   &.guest {
-    @apply bg-teal-50 text-night-20;
+    @apply bg-teal-50;
+    @apply text-night-20;
   }
 }
 </style>
